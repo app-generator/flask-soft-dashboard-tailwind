@@ -3,7 +3,7 @@
         <div class="h-19.5">
           <i class="absolute top-0 right-0 hidden p-4 opacity-50 cursor-pointer fas fa-times text-slate-400 xl:hidden" sidenav-close></i>
           <a class="block px-8 py-6 m-0 text-size-sm whitespace-nowrap text-slate-700" href="/index.html" target="_blank">
-            <img src="/static/assets/img/logo-ct.png" class="inline h-full max-w-full transition-all duration-200 ease-nav-brand max-h-8" alt="main_logo" />
+            <img src="{{ config.ASSETS_ROOT }}/img/logo-ct.png" class="inline h-full max-w-full transition-all duration-200 ease-nav-brand max-h-8" alt="main_logo" />
             <span class="mr-1 font-semibold transition-all duration-200 ease-nav-brand">Soft UI Dashboard</span>
           </a>
         </div>
@@ -205,7 +205,7 @@
           <!-- load phantom colors for card after: -->
           <p class="hidden after:bg-gradient-dark-gray after:bg-gradient-cyan after:bg-gradient-orange after:bg-gradient-lime after:bg-gradient-red after:bg-gradient-slate"></p>
           <div class="after:opacity-65 after:bg-gradient-slate relative flex min-w-0 flex-col items-center break-words rounded-2xl border-0 border-solid border-blue-900 bg-white bg-clip-border shadow-none after:absolute after:top-0 after:bottom-0 after:left-0 after:z-10 after:block after:h-full after:w-full after:rounded-2xl after:content-['']" sidenav-card>
-            <div class="mb-7.5 absolute h-full w-full rounded-2xl bg-cover bg-center" style="background-image: url('/static/assets/img/curved-images/white-curved.jpeg')"></div>
+            <div class="mb-7.5 absolute h-full w-full rounded-2xl bg-cover bg-center" style="background-image: url('{{ config.ASSETS_ROOT }}/img/curved-images/white-curved.jpeg')"></div>
             <div class="relative z-20 flex-auto w-full p-4 text-left text-white">
               <div class="flex items-center justify-center w-8 h-8 mb-4 text-center bg-white bg-center rounded-lg icon shadow-soft-2xl">
                 <i class="top-0 z-10 text-transparent ni ni-diamond text-size-lg bg-gradient-slate bg-clip-text opacity-80" aria-hidden="true" sidenav-card-icon></i>

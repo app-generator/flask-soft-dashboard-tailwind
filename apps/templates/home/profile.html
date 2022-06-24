@@ -9,14 +9,14 @@
 
     <div class="w-full px-6 mx-auto">
 
-      <div class="relative flex items-center p-0 mt-6 overflow-hidden bg-center bg-cover min-h-75 rounded-2xl" style="background-image: url('/static/assets/img/curved-images/curved0.jpg'); background-position-y: 50%">
+      <div class="relative flex items-center p-0 mt-6 overflow-hidden bg-center bg-cover min-h-75 rounded-2xl" style="background-image: url('{{ config.ASSETS_ROOT }}/img/curved-images/curved0.jpg'); background-position-y: 50%">
         <span class="absolute inset-y-0 w-full h-full bg-center bg-cover bg-gradient-fuchsia opacity-60"></span>
       </div>
       <div class="relative flex flex-col flex-auto min-w-0 p-4 mx-6 -mt-16 overflow-hidden break-words border-0 shadow-blur rounded-2xl bg-white/80 bg-clip-border backdrop-blur-2xl backdrop-saturate-200">
         <div class="flex flex-wrap -mx-3">
           <div class="flex-none w-auto max-w-full px-3">
             <div class="text-size-base ease-soft-in-out h-18.5 w-18.5 relative inline-flex items-center justify-center rounded-xl text-white transition-all duration-200">
-              <img src="/static/assets/img/bruce-mars.jpg" alt="profile_image" class="w-full shadow-soft-sm rounded-xl" />
+              <img src="{{ config.ASSETS_ROOT }}/img/bruce-mars.jpg" alt="profile_image" class="w-full shadow-soft-sm rounded-xl" />
             </div>
           </div>
           <div class="flex-none w-auto max-w-full px-3 my-auto">
@@ -195,7 +195,7 @@
               <ul class="flex flex-col pl-0 mb-0 rounded-lg">
                 <li class="relative flex items-center px-0 py-2 mb-2 bg-white border-0 rounded-t-lg text-inherit">
                   <div class="inline-flex items-center justify-center w-12 h-12 mr-4 text-white transition-all duration-200 text-size-base ease-soft-in-out rounded-xl">
-                    <img src="/static/assets/img/kal-visuals-square.jpg" alt="kal" class="w-full shadow-soft-2xl rounded-xl" />
+                    <img src="{{ config.ASSETS_ROOT }}/img/kal-visuals-square.jpg" alt="kal" class="w-full shadow-soft-2xl rounded-xl" />
                   </div>
                   <div class="flex flex-col items-start justify-center">
                     <h6 class="mb-0 leading-normal text-size-sm">Sophie B.</h6>
@@ -205,7 +205,7 @@
                 </li>
                 <li class="relative flex items-center px-0 py-2 mb-2 bg-white border-0 border-t-0 text-inherit">
                   <div class="inline-flex items-center justify-center w-12 h-12 mr-4 text-white transition-all duration-200 text-size-base ease-soft-in-out rounded-xl">
-                    <img src="/static/assets/img/marie.jpg" alt="kal" class="w-full shadow-soft-2xl rounded-xl" />
+                    <img src="{{ config.ASSETS_ROOT }}/img/marie.jpg" alt="kal" class="w-full shadow-soft-2xl rounded-xl" />
                   </div>
                   <div class="flex flex-col items-start justify-center">
                     <h6 class="mb-0 leading-normal text-size-sm">Anne Marie</h6>
@@ -215,7 +215,7 @@
                 </li>
                 <li class="relative flex items-center px-0 py-2 mb-2 bg-white border-0 border-t-0 text-inherit">
                   <div class="inline-flex items-center justify-center w-12 h-12 mr-4 text-white transition-all duration-200 text-size-base ease-soft-in-out rounded-xl">
-                    <img src="/static/assets/img/ivana-square.jpg" alt="kal" class="w-full shadow-soft-2xl rounded-xl" />
+                    <img src="{{ config.ASSETS_ROOT }}/img/ivana-square.jpg" alt="kal" class="w-full shadow-soft-2xl rounded-xl" />
                   </div>
                   <div class="flex flex-col items-start justify-center">
                     <h6 class="mb-0 leading-normal text-size-sm">Ivanna</h6>
@@ -225,7 +225,7 @@
                 </li>
                 <li class="relative flex items-center px-0 py-2 mb-2 bg-white border-0 border-t-0 text-inherit">
                   <div class="inline-flex items-center justify-center w-12 h-12 mr-4 text-white transition-all duration-200 text-size-base ease-soft-in-out rounded-xl">
-                    <img src="/static/assets/img/team-4.jpg" alt="kal" class="w-full shadow-soft-2xl rounded-xl" />
+                    <img src="{{ config.ASSETS_ROOT }}/img/team-4.jpg" alt="kal" class="w-full shadow-soft-2xl rounded-xl" />
                   </div>
                   <div class="flex flex-col items-start justify-center">
                     <h6 class="mb-0 leading-normal text-size-sm">Peterson</h6>
@@ -235,7 +235,7 @@
                 </li>
                 <li class="relative flex items-center px-0 py-2 bg-white border-0 border-t-0 rounded-b-lg text-inherit">
                   <div class="inline-flex items-center justify-center w-12 h-12 mr-4 text-white transition-all duration-200 text-size-base ease-soft-in-out rounded-xl">
-                    <img src="/static/assets/img/team-3.jpg" alt="kal" class="w-full shadow-soft-2xl rounded-xl" />
+                    <img src="{{ config.ASSETS_ROOT }}/img/team-3.jpg" alt="kal" class="w-full shadow-soft-2xl rounded-xl" />
                   </div>
                   <div class="flex flex-col items-start justify-center">
                     <h6 class="mb-0 leading-normal text-size-sm">Nick Daniel</h6>
@@ -259,7 +259,7 @@
                   <div class="relative flex flex-col min-w-0 break-words bg-transparent border-0 shadow-none rounded-2xl bg-clip-border">
                     <div class="relative">
                       <a class="block shadow-xl rounded-2xl">
-                        <img src="/static/assets/img/home-decor-1.jpg" alt="img-blur-shadow" class="max-w-full shadow-soft-2xl rounded-2xl" />
+                        <img src="{{ config.ASSETS_ROOT }}/img/home-decor-1.jpg" alt="img-blur-shadow" class="max-w-full shadow-soft-2xl rounded-2xl" />
                       </a>
                     </div>
                     <div class="flex-auto px-1 pt-6">
@@ -272,28 +272,28 @@
                         <button type="button" class="inline-block px-8 py-2 mb-0 font-bold text-center uppercase align-middle transition-all bg-transparent border border-solid rounded-lg shadow-none cursor-pointer leading-pro ease-soft-in text-size-xs hover:scale-102 active:shadow-soft-xs tracking-tight-soft border-fuchsia-500 text-fuchsia-500 hover:border-fuchsia-500 hover:bg-transparent hover:text-fuchsia-500 hover:opacity-75 hover:shadow-none active:bg-fuchsia-500 active:text-white active:hover:bg-transparent active:hover:text-fuchsia-500">View Project</button>
                         <div class="mt-2">
                           <a href="javascript:;" class="relative z-20 inline-flex items-center justify-center w-6 h-6 text-white transition-all duration-200 border-2 border-white border-solid ease-soft-in-out text-size-xs rounded-circle hover:z-30" data-target="tooltip_trigger" data-placement="bottom">
-                            <img class="w-full rounded-circle" alt="Image placeholder" src="/static/assets/img/team-1.jpg" />
+                            <img class="w-full rounded-circle" alt="Image placeholder" src="{{ config.ASSETS_ROOT }}/img/team-1.jpg" />
                           </a>
                           <div data-target="tooltip" class="hidden px-2 py-1 text-white bg-black rounded-lg text-size-sm" role="tooltip">
                             Elena Morison
                             <div class="invisible absolute h-2 w-2 bg-inherit before:visible before:absolute before:h-2 before:w-2 before:rotate-45 before:bg-inherit before:content-['']" data-popper-arrow></div>
                           </div>
                           <a href="javascript:;" class="relative z-20 inline-flex items-center justify-center w-6 h-6 -ml-4 text-white transition-all duration-200 border-2 border-white border-solid ease-soft-in-out text-size-xs rounded-circle hover:z-30" data-target="tooltip_trigger" data-placement="bottom">
-                            <img class="w-full rounded-circle" alt="Image placeholder" src="/static/assets/img/team-2.jpg" />
+                            <img class="w-full rounded-circle" alt="Image placeholder" src="{{ config.ASSETS_ROOT }}/img/team-2.jpg" />
                           </a>
                           <div data-target="tooltip" class="hidden px-2 py-1 text-white bg-black rounded-lg text-size-sm" role="tooltip">
                             Ryan Milly
                             <div class="invisible absolute h-2 w-2 bg-inherit before:visible before:absolute before:h-2 before:w-2 before:rotate-45 before:bg-inherit before:content-['']" data-popper-arrow></div>
                           </div>
                           <a href="javascript:;" class="relative z-20 inline-flex items-center justify-center w-6 h-6 -ml-4 text-white transition-all duration-200 border-2 border-white border-solid ease-soft-in-out text-size-xs rounded-circle hover:z-30" data-target="tooltip_trigger" data-placement="bottom">
-                            <img class="w-full rounded-circle" alt="Image placeholder" src="/static/assets/img/team-3.jpg" />
+                            <img class="w-full rounded-circle" alt="Image placeholder" src="{{ config.ASSETS_ROOT }}/img/team-3.jpg" />
                           </a>
                           <div data-target="tooltip" class="hidden px-2 py-1 text-white bg-black rounded-lg text-size-sm" role="tooltip">
                             Nick Daniel
                             <div class="invisible absolute h-2 w-2 bg-inherit before:visible before:absolute before:h-2 before:w-2 before:rotate-45 before:bg-inherit before:content-['']" data-popper-arrow></div>
                           </div>
                           <a href="javascript:;" class="relative z-20 inline-flex items-center justify-center w-6 h-6 -ml-4 text-white transition-all duration-200 border-2 border-white border-solid ease-soft-in-out text-size-xs rounded-circle hover:z-30" data-target="tooltip_trigger" data-placement="bottom">
-                            <img class="w-full rounded-circle" alt="Image placeholder" src="/static/assets/img/team-4.jpg" />
+                            <img class="w-full rounded-circle" alt="Image placeholder" src="{{ config.ASSETS_ROOT }}/img/team-4.jpg" />
                           </a>
                           <div data-target="tooltip" class="hidden px-2 py-1 text-white bg-black rounded-lg text-size-sm" role="tooltip">
                             Peterson
@@ -308,7 +308,7 @@
                   <div class="relative flex flex-col min-w-0 break-words bg-transparent border-0 shadow-none rounded-2xl bg-clip-border">
                     <div class="relative">
                       <a class="block shadow-xl rounded-2xl">
-                        <img src="/static/assets/img/home-decor-2.jpg" alt="img-blur-shadow" class="max-w-full shadow-soft-2xl rounded-xl" />
+                        <img src="{{ config.ASSETS_ROOT }}/img/home-decor-2.jpg" alt="img-blur-shadow" class="max-w-full shadow-soft-2xl rounded-xl" />
                       </a>
                     </div>
                     <div class="flex-auto px-1 pt-6">
@@ -321,28 +321,28 @@
                         <button type="button" class="inline-block px-8 py-2 mb-0 font-bold text-center uppercase align-middle transition-all bg-transparent border border-solid rounded-lg shadow-none cursor-pointer leading-pro ease-soft-in text-size-xs hover:scale-102 active:shadow-soft-xs tracking-tight-soft border-fuchsia-500 text-fuchsia-500 hover:border-fuchsia-500 hover:bg-transparent hover:text-fuchsia-500 hover:opacity-75 hover:shadow-none active:bg-fuchsia-500 active:text-white active:hover:bg-transparent active:hover:text-fuchsia-500">View Project</button>
                         <div class="mt-2">
                           <a href="javascript:;" class="relative z-20 inline-flex items-center justify-center w-6 h-6 text-white transition-all duration-200 border-2 border-white border-solid ease-soft-in-out text-size-xs rounded-circle hover:z-30" data-target="tooltip_trigger" data-placement="bottom">
-                            <img class="w-full rounded-circle" alt="Image placeholder" src="/static/assets/img/team-3.jpg" />
+                            <img class="w-full rounded-circle" alt="Image placeholder" src="{{ config.ASSETS_ROOT }}/img/team-3.jpg" />
                           </a>
                           <div data-target="tooltip" class="hidden px-2 py-1 text-white bg-black rounded-lg text-size-sm" role="tooltip">
                             Nick Daniel
                             <div class="invisible absolute h-2 w-2 bg-inherit before:visible before:absolute before:h-2 before:w-2 before:rotate-45 before:bg-inherit before:content-['']" data-popper-arrow></div>
                           </div>
                           <a href="javascript:;" class="relative z-20 inline-flex items-center justify-center w-6 h-6 -ml-4 text-white transition-all duration-200 border-2 border-white border-solid ease-soft-in-out text-size-xs rounded-circle hover:z-30" data-target="tooltip_trigger" data-placement="bottom">
-                            <img class="w-full rounded-circle" alt="Image placeholder" src="/static/assets/img/team-4.jpg" />
+                            <img class="w-full rounded-circle" alt="Image placeholder" src="{{ config.ASSETS_ROOT }}/img/team-4.jpg" />
                           </a>
                           <div data-target="tooltip" class="hidden px-2 py-1 text-white bg-black rounded-lg text-size-sm" role="tooltip">
                             Peterson
                             <div class="invisible absolute h-2 w-2 bg-inherit before:visible before:absolute before:h-2 before:w-2 before:rotate-45 before:bg-inherit before:content-['']" data-popper-arrow></div>
                           </div>
                           <a href="javascript:;" class="relative z-20 inline-flex items-center justify-center w-6 h-6 -ml-4 text-white transition-all duration-200 border-2 border-white border-solid ease-soft-in-out text-size-xs rounded-circle hover:z-30" data-target="tooltip_trigger" data-placement="bottom">
-                            <img class="w-full rounded-circle" alt="Image placeholder" src="/static/assets/img/team-1.jpg" />
+                            <img class="w-full rounded-circle" alt="Image placeholder" src="{{ config.ASSETS_ROOT }}/img/team-1.jpg" />
                           </a>
                           <div data-target="tooltip" class="hidden px-2 py-1 text-white bg-black rounded-lg text-size-sm" role="tooltip">
                             Elena Morison
                             <div class="invisible absolute h-2 w-2 bg-inherit before:visible before:absolute before:h-2 before:w-2 before:rotate-45 before:bg-inherit before:content-['']" data-popper-arrow></div>
                           </div>
                           <a href="javascript:;" class="relative z-20 inline-flex items-center justify-center w-6 h-6 -ml-4 text-white transition-all duration-200 border-2 border-white border-solid ease-soft-in-out text-size-xs rounded-circle hover:z-30" data-target="tooltip_trigger" data-placement="bottom">
-                            <img class="w-full rounded-circle" alt="Image placeholder" src="/static/assets/img/team-2.jpg" />
+                            <img class="w-full rounded-circle" alt="Image placeholder" src="{{ config.ASSETS_ROOT }}/img/team-2.jpg" />
                           </a>
                           <div data-target="tooltip" class="hidden px-2 py-1 text-white bg-black rounded-lg text-size-sm" role="tooltip">
                             Ryan Milly
@@ -357,7 +357,7 @@
                   <div class="relative flex flex-col min-w-0 break-words bg-transparent border-0 shadow-none rounded-2xl bg-clip-border">
                     <div class="relative">
                       <a class="block shadow-xl rounded-2xl">
-                        <img src="/static/assets/img/home-decor-3.jpg" alt="img-blur-shadow" class="max-w-full shadow-soft-2xl rounded-2xl" />
+                        <img src="{{ config.ASSETS_ROOT }}/img/home-decor-3.jpg" alt="img-blur-shadow" class="max-w-full shadow-soft-2xl rounded-2xl" />
                       </a>
                     </div>
                     <div class="flex-auto px-1 pt-6">
@@ -370,28 +370,28 @@
                         <button type="button" class="inline-block px-8 py-2 mb-0 font-bold text-center uppercase align-middle transition-all bg-transparent border border-solid rounded-lg shadow-none cursor-pointer leading-pro ease-soft-in text-size-xs hover:scale-102 active:shadow-soft-xs tracking-tight-soft border-fuchsia-500 text-fuchsia-500 hover:border-fuchsia-500 hover:bg-transparent hover:text-fuchsia-500 hover:opacity-75 hover:shadow-none active:bg-fuchsia-500 active:text-white active:hover:bg-transparent active:hover:text-fuchsia-500">View Project</button>
                         <div class="mt-2">
                           <a href="javascript:;" class="relative z-20 inline-flex items-center justify-center w-6 h-6 text-white transition-all duration-200 border-2 border-white border-solid ease-soft-in-out text-size-xs rounded-circle hover:z-30" data-target="tooltip_trigger" data-placement="bottom">
-                            <img class="w-full rounded-circle" alt="Image placeholder" src="/static/assets/img/team-4.jpg" />
+                            <img class="w-full rounded-circle" alt="Image placeholder" src="{{ config.ASSETS_ROOT }}/img/team-4.jpg" />
                           </a>
                           <div data-target="tooltip" class="hidden px-2 py-1 text-white bg-black rounded-lg text-size-sm" role="tooltip">
                             Peterson
                             <div class="invisible absolute h-2 w-2 bg-inherit before:visible before:absolute before:h-2 before:w-2 before:rotate-45 before:bg-inherit before:content-['']" data-popper-arrow></div>
                           </div>
                           <a href="javascript:;" class="relative z-20 inline-flex items-center justify-center w-6 h-6 -ml-4 text-white transition-all duration-200 border-2 border-white border-solid ease-soft-in-out text-size-xs rounded-circle hover:z-30" data-target="tooltip_trigger" data-placement="bottom">
-                            <img class="w-full rounded-circle" alt="Image placeholder" src="/static/assets/img/team-3.jpg" />
+                            <img class="w-full rounded-circle" alt="Image placeholder" src="{{ config.ASSETS_ROOT }}/img/team-3.jpg" />
                           </a>
                           <div data-target="tooltip" class="hidden px-2 py-1 text-white bg-black rounded-lg text-size-sm" role="tooltip">
                             Nick Daniel
                             <div class="invisible absolute h-2 w-2 bg-inherit before:visible before:absolute before:h-2 before:w-2 before:rotate-45 before:bg-inherit before:content-['']" data-popper-arrow></div>
                           </div>
                           <a href="javascript:;" class="relative z-20 inline-flex items-center justify-center w-6 h-6 -ml-4 text-white transition-all duration-200 border-2 border-white border-solid ease-soft-in-out text-size-xs rounded-circle hover:z-30" data-target="tooltip_trigger" data-placement="bottom">
-                            <img class="w-full rounded-circle" alt="Image placeholder" src="/static/assets/img/team-2.jpg" />
+                            <img class="w-full rounded-circle" alt="Image placeholder" src="{{ config.ASSETS_ROOT }}/img/team-2.jpg" />
                           </a>
                           <div data-target="tooltip" class="hidden px-2 py-1 text-white bg-black rounded-lg text-size-sm" role="tooltip">
                             Ryan Milly
                             <div class="invisible absolute h-2 w-2 bg-inherit before:visible before:absolute before:h-2 before:w-2 before:rotate-45 before:bg-inherit before:content-['']" data-popper-arrow></div>
                           </div>
                           <a href="javascript:;" class="relative z-20 inline-flex items-center justify-center w-6 h-6 -ml-4 text-white transition-all duration-200 border-2 border-white border-solid ease-soft-in-out text-size-xs rounded-circle hover:z-30" data-target="tooltip_trigger" data-placement="bottom">
-                            <img class="w-full rounded-circle" alt="Image placeholder" src="/static/assets/img/team-1.jpg" />
+                            <img class="w-full rounded-circle" alt="Image placeholder" src="{{ config.ASSETS_ROOT }}/img/team-1.jpg" />
                           </a>
                           <div data-target="tooltip" class="hidden px-2 py-1 text-white bg-black rounded-lg text-size-sm" role="tooltip">
                             Elena Morison
