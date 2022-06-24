@@ -1,0 +1,68 @@
+<!--
+=========================================================
+* Soft UI Dashboard Tailwind - v1.0.2
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/soft-ui-dashboard-tailwind
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://www.creative-tim.com/license)
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/static/assets/img/apple-icon.png" />
+    <link rel="icon" type="image/png" href="/static/assets/img/favicon.png" />
+    
+    <title>
+        Soft UI Dashboard Tailwind - {% block title %}{% endblock %} | AppSeed
+    </title>
+
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <!-- Nucleo Icons -->
+    <link href="/static/assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="/static/assets/css/nucleo-svg.css" rel="stylesheet" />
+    <!-- Popper -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+
+    <link href="/static/assets/css/perfect-scrollbar.css" rel="stylesheet" />
+    <link href="/static/assets/css/tooltips.css" rel="stylesheet" />
+
+    <!-- Main Styling -->
+    <link href="/static/assets/css/styles.css?v=1.0.2" rel="stylesheet" />
+
+    <!-- Specific CSS goes HERE -->
+    {% block stylesheets %}{% endblock stylesheets %}     
+
+  </head>
+  <body class="m-0 font-sans antialiased font-normal text-size-base leading-default bg-gray-50 text-slate-500">
+
+    {% include "includes/sidebar.html" %} 
+
+    <main class="ease-soft-in-out xl:ml-68.5 relative h-full max-h-screen rounded-xl transition-all duration-200">
+      
+      {% include "includes/navigation.html" %}       
+
+      {% block content %}{% endblock content %}
+
+    </main>
+
+    {% include "includes/fixed-plugin.html" %}     
+
+  </body>
+
+  {% include "includes/scripts.html" %} 
+
+  <!-- Specific JS goes HERE --> 
+  {% block javascripts %}{% endblock javascripts %} 
+
+</html>
